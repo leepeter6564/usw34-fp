@@ -24,6 +24,9 @@
 			Fusce laoreet maximus velit, at vulputate nibh. Nullam nec tempor ligula. Nullam ex lectus, semper sit amet odio vel, sagittis faucibus urna. Phasellus tortor tellus, porttitor mattis accumsan sed, elementum id diam. Nam vehicula ultricies risus ultricies condimentum. Ut gravida tempor massa sed accumsan. Morbi sed erat augue. Morbi id convallis eros. In nisi odio, aliquam et viverra quis, tincidunt ut nisl. Morbi molestie imperdiet odio in lacinia. Mauris viverra odio at nisi eleifend, sit amet vulputate nibh placerat. Curabitur malesuada mi a ex gravida, pharetra euismod tellus interdum. Aenean et bibendum mauris. Quisque maximus, erat eu faucibus blandit, leo quam aliquam odio, id lacinia velit diam et ligula. Donec vestibulum imperdiet elementum.
 			</p>
 
+			<form action="/confed/1.php" class="inline">
+    			<button type="submit">Join the Confederacy!</button>
+			</form>
 
 		</div>
 		
