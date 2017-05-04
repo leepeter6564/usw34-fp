@@ -1,19 +1,51 @@
-body {
-	padding: 30px;
+body, html {
 	font-family: 'Roboto', sans-serif;
-	background-color:rgb(0,0,0);
 	color: gray;
+	height: 80%;
+	background-color:#1a1a1a;
 }
 
-h5 {
+h2 {
 	margin-top: 30px;
-
-}
-
-h1, h2, h3 {
-	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 p {
+	margin-top: 30px;
+}
+
+button {
 	display: inline-block;
+	vertical-align:top;
+	padding:0;
+	margin:0;
+	height:154px;
+	width:304px;
+}
+
+#flag img{
+	display:block;
+	height:150px;
+	width:300px;
+}
+
+.float_col {
+	float:left;
+	width:40%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('bg1.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
