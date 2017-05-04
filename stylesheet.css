@@ -1,7 +1,8 @@
 body {
 	padding: 30px;
 	font-family: 'Roboto', sans-serif;
-	background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/orange_parchment_paper_wallpaper_texture_seamless.jpg);background-position:top left;background-repeat:repeat;background-attachment:fixed;
+	background-color:rgb(0,0,0);
+	color: gray;
 }
 
 h5 {
@@ -13,3 +14,6 @@ h1, h2, h3 {
 	margin-top: 20px;
 }
 
+p {
+	display: inline-block;
+}
