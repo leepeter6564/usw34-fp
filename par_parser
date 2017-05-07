@@ -1,0 +1,9 @@
+
+f = open('text.txt', 'r')
+
+data = f.read()
+paragraphs = data.split("\n\n")
+
+paragraphs[:] = (value for value in paragraphs if value != '\t')
+
+print(paragraphs)
