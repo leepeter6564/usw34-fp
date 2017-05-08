@@ -1,25 +1,38 @@
 <html>
 
 <head>
-	<title>USW 34: Choose your own adventure</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<!-- CSS Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<?php
+	include('fadefxn.php');
 
+	$par = "
+	Fate isn't on your side today though. The dealer turns his cards over with one hand, sweeping away your money with the other. At first you can only blink, watching the last of your savings slip away. You push away from the table, stepping outside to the crowded streets. From inside your coat pocket you pull that damnable letter. The draft letter.
+
+";
+
+	$ques =
+	"You had been avoiding the war since it began.
+
+	4
+
+	You expected the war to end before it mattered.
+
+	5";
+
+	?>
 </head>
+
+<?php
+fade_in($par, $ques);
+?>
+
 
 <body>
 	<center>
-		test 3
 
-		</div>
+		<?php 
+		print_par($par, $ques);
+		?>
 		
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="application.js" type="text/javascript" charset="utf-8" async defer></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	</center>
 </body>
 

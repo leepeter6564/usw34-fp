@@ -5,22 +5,19 @@
 	include('fadefxn.php');
 
 	$par =
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at varius velit, quis vulputate elit. Nullam viverra consectetur libero, aliquet imperdiet tellus pellentesque convallis. Ut et odio nisl. Nulla facilisi. Nulla facilisi. Phasellus rhoncus fermentum interdum. Nam mauris metus, porttitor at sem eget, sagittis imperdiet lectus. Duis luctus, diam eu egestas eleifend, turpis magna porttitor mauris, quis pharetra velit diam sit amet justo. Aenean at auctor lacus. Nullam non orci sit amet odio placerat cursus. Proin lobortis dictum elit in gravida. Nulla justo enim, pellentesque a facilisis in, dignissim vitae ante.
+"Smoke fills the air, and the smell of alcohol heavy on folks' breath. People squabble over space at the bar and the ladies strolling between the rickety wooden tables. You mostly ignore them, focusing instead on your game, possibly the most important game of your life.
 
-Fusce laoreet maximus velit, at vulputate nibh. Nullam nec tempor ligula. Nullam ex lectus, semper sit amet odio vel, sagittis faucibus urna. Phasellus tortor tellus, porttitor mattis accumsan sed, elementum id diam. Nam vehicula ultricies risus ultricies condimentum. Ut gravida tempor massa sed accumsan. Morbi sed erat augue. Morbi id convallis eros. In nisi odio, aliquam et viverra quis, tincidunt ut nisl. Morbi molestie imperdiet odio in lacinia. Mauris viverra odio at nisi eleifend, sit amet vulputate nibh placerat. Curabitur malesuada mi a ex gravida, pharetra euismod tellus interdum. Aenean et bibendum mauris. Quisque maximus, erat eu faucibus blandit, leo quam aliquam odio, id lacinia velit diam et ligula. Donec vestibulum imperdiet elementum.";
+The year is 1862, and while you should be focused on tending crops and utilizing those familiar April showers, you're at a bar. This afternoon you set out with your whole savings, $50 sequestered in your pocket. You ignored the scant few posters and the criers shouting about recruitment. Word of the new conscription laws had spread like wildfire across the once sleepy farms of Arkansas. Now people were alive, the poor ones at least. $300 dollars and you could guarantee yourself a chance to go home, no questions asked, and forget about this war. As you stare down at your two cards, a stony mask on your face, you have to make a decision…
+";
 
 	$ques =
-	"take me to 2
-
-	2
-
-	take me to 3
+	"You hit, the dealer at the rough table sliding a card your way.
 
 	3
 
-	take me to 4
+	You stand, confident enough in your hand.
 
-	4";
+	3";
 
 	?>
 </head>

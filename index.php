@@ -24,26 +24,22 @@ $(document).ready(function(){
 <body>
 	<center>
 		<div style="height:400px">
-		<h2> USW34: Civil War, Final Project </h2>
-		<h4> By blah, blah, blah </h4>
+		<h2> USW34: The Civil War, Final Project </h2>
+		<h4> By Peter Lee, Vishal Jain, and MaryBeth Schleicher</h4>
 		<div class="parallax1"></div>
-
 
 		<div class="parallax1"></div>
 		<div id='fade1' style="display:none; width:80%">
 			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at varius velit, quis vulputate elit. Nullam viverra consectetur libero, aliquet imperdiet tellus pellentesque convallis. Ut et odio nisl. Nulla facilisi. Nulla facilisi. Phasellus rhoncus fermentum interdum. Nam mauris metus, porttitor at sem eget, sagittis imperdiet lectus. Duis luctus, diam eu egestas eleifend, turpis magna porttitor mauris, quis pharetra velit diam sit amet justo. Aenean at auctor lacus. Nullam non orci sit amet odio placerat cursus. Proin lobortis dictum elit in gravida. Nulla justo enim, pellentesque a facilisis in, dignissim vitae ante.
+			Welcome to the Choose Your Own Adventure creative project for the course USW 34: The Civil War from Nat Turner to Birth of a Nation. This project explores the tale of an ex-slave Union soldier and a gambler-turned-confederate soldier. Through these stories that YOU choose, we hope to convey a better understanding of what it may have been like to be a soldier on either side of the war.
 			</p>
 		
-			<p>
-			Fusce laoreet maximus velit, at vulputate nibh. Nullam nec tempor ligula. Nullam ex lectus, semper sit amet odio vel, sagittis faucibus urna. Phasellus tortor tellus, porttitor mattis accumsan sed, elementum id diam. Nam vehicula ultricies risus ultricies condimentum. Ut gravida tempor massa sed accumsan. Morbi sed erat augue. Morbi id convallis eros. In nisi odio, aliquam et viverra quis, tincidunt ut nisl. Morbi molestie imperdiet odio in lacinia. Mauris viverra odio at nisi eleifend, sit amet vulputate nibh placerat. Curabitur malesuada mi a ex gravida, pharetra euismod tellus interdum. Aenean et bibendum mauris. Quisque maximus, erat eu faucibus blandit, leo quam aliquam odio, id lacinia velit diam et ligula. Donec vestibulum imperdiet elementum.
-			</p>
 		</div>
 		<div id='fade2' class="float_col" style="display:none;height:200px">
 			<p>
-			Fusce laoreet maximus velit, at vulputate nibh. Nullam nec tempor ligula. Nullam ex lectus, semper sit amet odio vel, sagittis faucibus urna. Phasellus tortor tellus, porttitor mattis accumsan sed, elementum id diam. Nam vehicula ultricies risus ultricies condimentum. Ut gravida tempor massa sed accumsan. Morbi sed erat augue. Morbi id convallis eros. In nisi odio, aliquam et viverra quis, tincidunt ut nisl. Morbi molestie imperdiet odio in lacinia. Mauris viverra odio at nisi eleifend, sit amet vulputate nibh placerat. Curabitur malesuada mi a ex gravida, pharetra euismod tellus interdum. Aenean et bibendum mauris. Quisque maximus, erat eu faucibus blandit, leo quam aliquam odio, id lacinia velit diam et ligula. Donec vestibulum imperdiet elementum.
+			You are an ex-slave who has escaped from the south through rather unconventional means. You are now determined to fight against the southern institution that had enslaved you in the past. Will you be able to survive the ordeal?
 			</p>
-			<form action="/confed/1.php" class="inline">
+			<form action="/union/1.php" class="inline">
     			<button type="submit" id="flag"><img src="union_flag.jpg"></button>
 			</form>
 			Join the Union!
@@ -53,7 +49,7 @@ $(document).ready(function(){
 		
 		<div id='fade3' class="float_col" style="display:none;height:200px">
 			<p>
-			Fusce laoreet maximus velit, at vulputate nibh. Nullam nec tempor ligula. Nullam ex lectus, semper sit amet odio vel, sagittis faucibus urna. Phasellus tortor tellus, porttitor mattis accumsan sed, elementum id diam. Nam vehicula ultricies risus ultricies condimentum. Ut gravida tempor massa sed accumsan. Morbi sed erat augue. Morbi id convallis eros. In nisi odio, aliquam et viverra quis, tincidunt ut nisl. Morbi molestie imperdiet odio in lacinia. Mauris viverra odio at nisi eleifend, sit amet vulputate nibh placerat. Curabitur malesuada mi a ex gravida, pharetra euismod tellus interdum. Aenean et bibendum mauris. Quisque maximus, erat eu faucibus blandit, leo quam aliquam odio, id lacinia velit diam et ligula. Donec vestibulum imperdiet elementum.
+			You are a young southern lad taking part in a war that you don't fully understand. As you fight in the war as a confederate soldier, you're not entirely sure what to expect. Perhaps you will discover more about what this war means...or die trying.
 			</p>
 			<form action="/confed/1.php" class="inline">
     			<button type="submit" id="flag"><img src="confed_flag.jpg"></button>

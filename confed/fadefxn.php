@@ -51,14 +51,16 @@
 		for ($i = 0; $i < $lenq; $i++ ){
 			echo(
 				"<br style='clear:both' />
-				<div id='fade" . ($i + $lenp) . "' style='display:none;float:left;margin-left:10%'>
+				<div id='fade" . ($i + $lenp) . "' style='display:none;float:left;margin-left:10%;margin-right:40%'>
 					<p>"
 					. $ques[2 * $i] .
 					"</p>
 
-					<form action='" . $ques[2 * $i + 1] . ".php' class='inline'>
-						<button type='submit'>Hello</button>
-					</form>
+					<a href='" . $ques[2 * $i + 1] . ".php' class='btn'></a>
+
+
+					
+
 				</div>"
 			);
 		}
